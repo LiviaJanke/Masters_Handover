@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ring>
+  <paths>
+    <!-- upto 10 paths can be specified (index 0 to 9). Any file or directory name in the  -->
+    <!-- raw_spectra tree that begins with %? (where ? is a single digit) is expanded with -->
+    <!-- the correponding path.                                                            -->
+
+  </paths>
+  <general temp="250.0" normalize="true" rmhdr="false" save_raman="false" output="C:/Users/lme19/Documents/Ring_Effect/outputv1" calib="C:/Users/lme19/Documents/Ring_Effect/wavelength_calibration.asc" ref="C:/Users/lme19/Documents/LiteratureCrossSections/vacuum/sao2010_QDOAS_vac.ktz" >
+    <slit_func type="file">
+      <file file="C:/Users/lme19/Documents/VIS/VIS/VIS_20220823_Calibspec/VIS_slf_Hg.slf" wveDptFlag="false" file2="" />
+      <gaussian fwhm="0.000" wveDptFlag="false" file="" />
+      <lorentz width="0.000" order="1" wveDptFlag="false" file="" />
+      <voigt fwhmleft="0.000" fwhmright="0.000" glrleft="0.000" glrright="0.000" wveDptFlag="false" file="" file2="" />
+      <error fwhm="0.000" width="0.000" wveDptFlag="false" file="" file2="" />
+      <agauss fwhm="0.000" asym="0.000" wveDptFlag="false" file="" file2="" />
+      <supergauss fwhm="0.000" expTerm="0.000" asym="0.000" wveDptFlag="false" file="" file2="" file3="" />
+      <boxcarapod resolution="0.000" phase="0.000" />
+      <nbsapod resolution="0.000" phase="0.000" />
+    </slit_func>
+  </general>
+</ring>
